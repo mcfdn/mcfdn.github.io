@@ -1,4 +1,4 @@
-jamesmcfadden.github.io
+Personal Blog
 =======================
 
-GitHub Pages
+Badly written words.
