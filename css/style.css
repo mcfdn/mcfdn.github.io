@@ -1,0 +1,179 @@
+body {
+    margin: 0;
+    font-family: 'Source Sans Pro', sans-serif;
+    color: #222;
+    background: #fff;
+    padding: 0;
+    text-align: justify;
+}
+
+a {
+    color: #dd5424;
+}
+
+#wrap {
+    max-width: 740px;
+    margin: 0 auto 2em;
+    position: relative;
+}
+
+#fork-me {
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    border: 0px;
+    opacity: 1;
+}
+
+h1 {
+    font-size: 1.4em;
+    margin-top: 0.6em;
+}
+
+h2 {
+    font-size: 1.2em;
+}
+
+h3 {
+    font-size: 1em;
+}
+
+h1, h2, h3 {
+    font-weight: bold;
+}
+
+h1, h2 {
+    margin-bottom: 1.6em;
+}
+
+h1 a {
+    text-decoration: none;
+    color: #222;
+}
+
+p {
+    display: block;
+    margin: 1em 0;
+}
+
+.post-entry h3 {
+    margin: 0.5em 0 0 0;
+    padding: 0;
+    font-size: 1.05em;
+    line-height: 1.3em;
+    border: none;
+    font-weight: normal;
+}
+
+.entry-date {
+    margin: 0 0 1em 0;
+    font-size: 0.8em;
+    color: #aaa;
+    line-height: 1.6em;
+    word-spacing: 2px;
+}
+
+table {
+    width: 100%;
+    overflow: auto;
+    display: block;
+}
+
+table tr {
+    border-top: 1px solid #ccc;
+    background-color: #fff;
+    margin: 15px 0;
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+table tr:nth-child(2n) {
+    background-color: #f8f8f8;
+}
+
+table th,
+table td {
+    border: 1px solid #ddd;
+    padding: 6px 13px;
+}
+
+table th {
+    font-weight: bold;
+}
+
+#post {
+    margin-bottom: 2em;
+    line-height: 1.4em;
+}
+
+#post h2 {
+    margin-bottom: 0;
+}
+
+#post pre {
+    display: block;
+    padding: 8.5px;
+    margin: 0 0 9px;
+    font-size: 12px;
+    line-height: 18px;
+    background-color: #f2f2f2;
+    border: 1px solid #ccc;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+    white-space: pre;
+    white-space: pre-wrap;
+    word-break: break-all;
+    word-wrap: break-word;
+}
+
+#post p code {
+    padding: 2px;
+    background-color: #f7f7f9;
+    border: 1px solid #e1e1e8;
+}
+
+#post pre > code {
+    margin: 0;
+    padding: 0;
+    white-space: pre;
+    border: none;
+    background: transparent;
+}
+
+#footer {
+    border-top: 1px solid #ddd;
+    margin-top: 1em;
+    font-size: 0.9em;
+}
+
+#footer a {
+    color: #222;
+}
+
+#footer ul {
+    margin-top: 0.8em;
+    padding: 0;
+    list-style-type: none;
+    line-height: 1.5em;
+}
+
+#footer #power {
+    font-size: smaller;
+    margin-top: 0.7em;
+    float: right;
+}
+
+small {
+    font-size: small;
+}
+
+em {
+    font-style: italic;
+}
+
+pre,
+code {
+    font-family: Consolas, "Liberation Mono", Courier, monospace;
+    font-size: small;
+}
