@@ -17,9 +17,9 @@ Having recently switched from Eclipse to Netbeans for various reasons, I have fo
 
 Unable to find a sufficient port from Eclipse to Netbeans on the Internet, I decided to begin setting it up myself:
 
-[![Netbeans Obsidian Theme](http://jamesmcfadden.co.uk/wp-content/uploads/2012/09/obsidian-php.png "Netbeans Obsidian Theme")](http://jamesmcfadden.co.uk/wp-content/uploads/2012/09/obsidian-php.png)
+[![Netbeans Obsidian Theme](http://old.jamesmcfadden.co.uk/wp-content/uploads/2012/09/obsidian-php.png "Netbeans Obsidian Theme")](http://old.jamesmcfadden.co.uk/wp-content/uploads/2012/09/obsidian-php.png)
 
-While I am still working on the HTML/ CSS themes, I think the PHP is pretty much ready to go, so I've made the theme available to download [here](http://jamesmcfadden.co.uk/wp-content/uploads/2012/09/netbeans-obsidian-theme.zip). I will update this post as and when I get time to add to the theme, but I feel it's certainly usable at the moment (PHP, HTML, CSS).
+While I am still working on the HTML/ CSS themes, I think the PHP is pretty much ready to go, so I've made the theme available to download [here](http://old.jamesmcfadden.co.uk/wp-content/uploads/2012/09/netbeans-obsidian-theme.zip). I will update this post as and when I get time to add to the theme, but I feel it's certainly usable at the moment (PHP, HTML, CSS).
 
 Also note that I've made a few changes here and there to suit my own needs, so I make no guarantee that this theme directly mimics the original Obsidian theme, but you get the gist.
 
@@ -29,4 +29,4 @@ After downloading the theme, open Netbeans and navigate to Tools > Options. Clic
 
 Netbeans will restart and your theme should automatically be activated upon load.
 
-[Download Netbeans Obsidian Theme](http://jamesmcfadden.co.uk/wp-content/uploads/2012/09/netbeans-obsidian-theme.zip)
+[Download Netbeans Obsidian Theme](http://old.jamesmcfadden.co.uk/wp-content/uploads/2012/09/netbeans-obsidian-theme.zip)
