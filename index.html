@@ -6,9 +6,19 @@ title: James McFadden
 <h2>Blog Posts</h2>
 <div class="entry-list">
     {% for post in site.posts %}
-        <div class="post-entry">
+        <li>
             <h3><a href="{{ post.url }}">{{ post.title }}</a></h3>
             <span class="entry-date">{{ post.date | date_to_string }}</span>
-        </div>
+        </li>
     {% endfor %}
+</div>
+
+<h2>Projects</h2>
+<div class="entry-list">
+    <li>
+        <h3><a href="http://stagenova.com">Stagenova</a></h3>
+    </li>
+    <li>
+        <h3><a href="https://github.com/jamesmcfadden/Php-Gw2-Api">PhpGw2Api</a></h3>
+    </li>
 </div>
