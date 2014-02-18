@@ -65,6 +65,10 @@ p {
     margin-top: 1.3em;
 }
 
+.entry-list .entry:first-child {
+    margin-top: 0;
+}
+
 .entry-list .entry .entry-title {
     margin: 0.5em 0 0 0;
     padding: 0;
@@ -80,6 +84,7 @@ p {
     font-weight: normal;
     font-size: 0.9em;
     line-height: 1.2em;
+    color: #666; /** The number of the beast **/
 }
 
 .entry-date {
