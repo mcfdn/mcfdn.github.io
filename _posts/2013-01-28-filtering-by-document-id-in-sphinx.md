@@ -3,6 +3,7 @@ layout: post
 status: publish
 published: true
 title: Filtering by Document ID in Sphinx
+description: How to exclude a certain document ID from within Sphinx and PHP
 author: James
 author_login: James
 author_email: james@jamesmcfadden.co.uk

@@ -3,6 +3,7 @@ layout: post
 status: publish
 published: true
 title: BlueImp jQuery File Upload in Zend Framework
+description: I came across the popular jQuery File Upload plugin while looking for a simple to use and extensible file upload solution to integrate into a Zend Framework project.
 author: James
 author_login: James
 author_email: james@jamesmcfadden.co.uk

@@ -3,6 +3,7 @@ layout: post
 status: publish
 published: true
 title: Using Zend Framework as a script
+description: Running Zend Framework as a script can obviously be useful in many circumstances. These are the steps I take to get up and running on the command line.
 author: James
 author_login: James
 author_email: james@jamesmcfadden.co.uk

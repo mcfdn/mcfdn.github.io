@@ -3,6 +3,7 @@ layout: post
 status: publish
 published: true
 title: Implement JsonSerializable to control how objects are serialised into JSON
+description: I assumed that json_encode would make use of PHP's __toString() magic method, giving me the ability to manage how my object is processed. Turns out it doesn't
 author: James
 author_login: James
 author_email: james@jamesmcfadden.co.uk

@@ -3,6 +3,7 @@ layout: post
 status: publish
 published: true
 title: Installing Ruby on Rails on CentOS 5.8
+description: CentOS generally enjoys having out-dated software, such as Ruby 1.8.5. I wanted to get rails running on my VPS to have a play around, which required me to update rubygems and ruby
 author: James
 author_login: James
 author_email: james@jamesmcfadden.co.uk

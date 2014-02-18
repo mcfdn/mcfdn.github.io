@@ -3,6 +3,7 @@ layout: post
 status: publish
 published: true
 title: Validate XML with Zend_Form
+description: I needed a simple way to validate user-inputted XML with Zend_Form, so decided to write a simple
 author: James
 author_login: James
 author_email: james@jamesmcfadden.co.uk

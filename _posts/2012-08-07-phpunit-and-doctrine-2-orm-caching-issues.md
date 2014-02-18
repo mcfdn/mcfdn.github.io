@@ -3,6 +3,7 @@ layout: post
 status: publish
 published: true
 title: PHPUnit and Doctrine 2 ORM caching issues
+description: I've recently begun setting up test suite for a project I'm working on with PHPUnit. The project is built in Zend Framework and makes use of the Doctrine ORM.
 author: James
 author_login: James
 author_email: james@jamesmcfadden.co.uk

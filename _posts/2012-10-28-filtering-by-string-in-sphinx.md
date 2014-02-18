@@ -3,6 +3,7 @@ layout: post
 status: publish
 published: true
 title: Filtering by string in Sphinx
+description: Sphinx doesn't support filtering by strings as attributes (yet), so here are two options you can use to get around this limitation.
 author: James
 author_login: James
 author_email: james@jamesmcfadden.co.uk

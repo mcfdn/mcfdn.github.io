@@ -3,6 +3,7 @@ layout: post
 status: publish
 published: true
 title: Database Unit Testing with Doctrine 2 and PHPUnit
+description: Settings up Database unit or integration testing with Doctrine 2 ORM and PHPUnit
 author: James
 author_login: James
 author_email: james@jamesmcfadden.co.uk

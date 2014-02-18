@@ -3,6 +3,7 @@ layout: post
 status: publish
 published: true
 title: ! 'Heroku: Web process failed to bind to $PORT within 60 seconds of launch'
+description: Error Heroku Web process failed to bind to $PORT within 60 seconds of launch in nodejs
 author: James
 author_login: James
 author_email: james@jamesmcfadden.co.uk

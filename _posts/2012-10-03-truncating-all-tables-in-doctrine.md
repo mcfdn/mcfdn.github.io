@@ -3,6 +3,7 @@ layout: post
 status: publish
 published: true
 title: Truncating All Tables in Doctrine
+description: A quick script I use to truncate all entities registered in Doctrine
 author: James
 author_login: James
 author_email: james@jamesmcfadden.co.uk

@@ -3,6 +3,7 @@ layout: post
 status: publish
 published: true
 title: Netbeans Obsidian Theme
+description: Having recently switched from Eclipse to Netbeans for various reasons, I have found myself missing the "Obsidian" theme (originally from Notepad++, I believe).
 author: James
 author_login: James
 author_email: james@jamesmcfadden.co.uk

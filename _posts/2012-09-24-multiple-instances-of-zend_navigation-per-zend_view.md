@@ -3,6 +3,7 @@ layout: post
 status: publish
 published: true
 title: Multiple instances of Zend_Navigation per Zend_View
+description: I came across an interesting issue recently when attempting to register multiple Zend_Navigation instances to the same view.
 author: James
 author_login: James
 author_email: james@jamesmcfadden.co.uk

@@ -3,6 +3,7 @@ layout: post
 status: publish
 published: true
 title: Overriding Doctrine Types
+description: Sometimes you want to override Doctrine types. For instance, if you have a child project that must adhere to a parent project's Entity Annotations, but you want to use a different class for the Doctrine return value (than the one specified in the parent project), overriding the existing Doctrine type can help.
 author: James
 author_login: James
 author_email: james@jamesmcfadden.co.uk

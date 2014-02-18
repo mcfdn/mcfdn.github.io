@@ -3,6 +3,7 @@ layout: post
 status: publish
 published: true
 title: Checking for duplicate keys in Doctrine
+description: Doctrine doesn't seem to have an inbuilt mechanism for checking for duplicate entries; one solution thrown around the web is to simply try catch the PDOException code 23000.
 author: James
 author_login: James
 author_email: james@jamesmcfadden.co.uk

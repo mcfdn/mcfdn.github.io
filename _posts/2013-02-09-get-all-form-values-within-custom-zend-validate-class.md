@@ -3,6 +3,7 @@ layout: post
 status: publish
 published: true
 title: Get all form values within custom zend validate class
+description: A quick one I recently learned about, Zend_Validate_Interface::isValid allows an optional second argument in addition to the required value parameter
 author: James
 author_login: James
 author_email: james@jamesmcfadden.co.uk

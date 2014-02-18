@@ -3,6 +3,7 @@ layout: post
 status: publish
 published: true
 title: Preserving numerical array keys while merging
+description: How to preserve numerical array keys when merging two arrays together in PHP
 author: James
 author_login: James
 author_email: james@jamesmcfadden.co.uk

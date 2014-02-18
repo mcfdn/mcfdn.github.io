@@ -3,6 +3,7 @@ layout: post
 status: publish
 published: true
 title: Wordpress Infinite Scroll plugin for Origin theme
+description: I've just added infinite scrolling to the blog, with the help of the Infinite-Scroll plugin.
 author: James
 author_login: James
 author_email: james@jamesmcfadden.co.uk

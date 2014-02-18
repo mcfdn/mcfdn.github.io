@@ -1,5 +1,7 @@
 ---
 layout: post
+title: Pear No Releases Available For Package Pear Php Net
+description: I was recently trying to install PHP CodeSniffer on a machine using PEAR but kept receiving the following error message
 ---
 This one is more of a note to self than anything else, but may help others as it's not that clear. 
 

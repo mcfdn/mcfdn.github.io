@@ -3,6 +3,7 @@ layout: post
 status: publish
 published: true
 title: Creating a New Remote Git Repository
+description: When not using GitHub to host your Git repositories, you don't have the luxury of simply cloning once you've created the repository. There are a few extra steps documented here
 author: James
 author_login: James
 author_email: james@jamesmcfadden.co.uk

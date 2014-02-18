@@ -3,6 +3,7 @@ layout: post
 status: publish
 published: true
 title: Problems autoloading Zend view helpers
+description: Case sensitive issues encountered with Zend view helpers on Windows
 author: James
 author_login: James
 author_email: james@jamesmcfadden.co.uk
