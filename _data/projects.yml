@@ -1,0 +1,9 @@
+- name: Stagenova
+  link: http://stagenova.com
+  status: In development
+  description: Stagenova is a platform for finding musical talent based on user specific requirements.
+
+- name: PhpGw2Api
+  link: https://github.com/jamesmcfadden/Php-Gw2-Api
+  status: Ongoing development
+  description: Php-Gw2-Api is a PHP wrapper for the Guild Wars 2 API.

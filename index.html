@@ -17,14 +17,11 @@ description: London based web developer
 
 <h2>Projects</h2>
 <div class="entry-list">
-    <h3 class="entry">
-        <span class="entry-title"><a href="http://stagenova.com">Stagenova</a></span>
-        <span class="entry-info">In development</span>
-        <div class="excerpt"><p>Stagenova is a platform for finding musical talent based on user specific requirements.</p></div>
-    </h3>
-    <h3 class="entry">
-        <span class="entry-title"><a href="https://github.com/jamesmcfadden/Php-Gw2-Api">PhpGw2Api</a></span>
-        <span class="entry-info">Ongoing development</span>
-        <div class="excerpt"><p>Php-Gw2-Api is a PHP wrapper for the Guild Wars 2 API.</p>
-    </h3>
+    {% for project in site.data.projects %}
+        <h3 class="entry">
+            <span class="entry-title"><a href="{{ project.link }}">{{ project.name}} </a></span>
+            <span class="entry-info">{{ project.status }}</span>
+            <div class="excerpt"><p>{{ project.description }}</p></div>
+        </h3>
+    {% endfor %}
 </div>
