@@ -169,6 +169,10 @@ table th {
     background: transparent;
 }
 
+#post #disqus_thread {
+    margin-top: 30px;
+}
+
 #footer {
     border-top: 1px solid #ddd;
     margin-top: 1em;
