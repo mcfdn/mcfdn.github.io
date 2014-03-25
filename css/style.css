@@ -11,6 +11,56 @@ a {
     color: #dd5424;
 }
 
+small {
+    font-size: small;
+}
+
+em {
+    font-style: italic;
+}
+
+pre,
+code {
+    font-family: Consolas, "Liberation Mono", Courier, monospace;
+    font-size: small;
+}
+
+/**
+ * Thanks to Chris Coyier for this blockquote style
+ * http://css-tricks.com/snippets/css/simple-and-nice-blockquote-styling/
+ */
+blockquote {
+    background: #f9f9f9;
+    border-left: 10px solid #ccc;
+    margin: 1.5em 10px;
+    padding: 0.5em 10px;
+    quotes: "\201C""\201D""\2018""\2019";
+}
+
+blockquote:before {
+    color: #ccc;
+    content: open-quote;
+    font-size: 4em;
+    line-height: 0.1em;
+    margin-right: 0.25em;
+    vertical-align: -0.4em;
+}
+
+blockquote p {
+    display: inline;
+    font-style: italic;
+    font-size: 0.95em;
+}
+
+ul {
+    padding-left: 20px;
+}
+
+ul li {
+    list-style-type: disc;
+}
+
+
 #wrap {
     max-width: 740px;
     margin: 0 auto 2em;
@@ -186,53 +236,15 @@ table th {
 #footer ul {
     margin-top: 0.8em;
     padding: 0;
-    list-style-type: none;
     line-height: 1.5em;
+}
+
+#footer ul li {
+    list-style-type: none;
 }
 
 #footer #power {
     font-size: smaller;
     margin-top: 0.7em;
     float: right;
-}
-
-small {
-    font-size: small;
-}
-
-em {
-    font-style: italic;
-}
-
-pre,
-code {
-    font-family: Consolas, "Liberation Mono", Courier, monospace;
-    font-size: small;
-}
-
-/**
- * Thanks to Chris Coyier for this blockquote style
- * http://css-tricks.com/snippets/css/simple-and-nice-blockquote-styling/
- */
-blockquote {
-    background: #f9f9f9;
-    border-left: 10px solid #ccc;
-    margin: 1.5em 10px;
-    padding: 0.5em 10px;
-    quotes: "\201C""\201D""\2018""\2019";
-}
-
-blockquote:before {
-    color: #ccc;
-    content: open-quote;
-    font-size: 4em;
-    line-height: 0.1em;
-    margin-right: 0.25em;
-    vertical-align: -0.4em;
-}
-
-blockquote p {
-    display: inline;
-    font-style: italic;
-    font-size: 0.95em;
 }
