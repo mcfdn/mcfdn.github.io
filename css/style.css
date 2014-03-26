@@ -81,11 +81,14 @@ h1 {
 }
 
 h2 {
-    font-size: 1.2em;
+    font-size: 1.3em;
 }
 
 h3 {
     font-size: 1.1em;
+    border-bottom: 1px solid #ddd;
+    padding-bottom: 4px;
+    margin-top: 1.3em;
 }
 
 h1, h2, h3 {
