@@ -154,6 +154,10 @@ p {
     font-style: italic;
 }
 
+.entry-list .entry:last-child {
+    border-bottom: 0;
+}
+
 table {
     width: 100%;
     overflow: auto;
