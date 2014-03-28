@@ -3,6 +3,11 @@
   status: In development
   description: Stagenova is a platform for finding musical talent based on user specific requirements.
 
+- name: GitHub CV
+  link: https://github.com/jamesmcfadden/ghcv
+  status: Ongoing development
+  description: Create an instant, editable GitHub CV with just a fork.
+
 - name: Hoarder
   link: https://github.com/jamesmcfadden/hoarder
   status: Ongoing development
