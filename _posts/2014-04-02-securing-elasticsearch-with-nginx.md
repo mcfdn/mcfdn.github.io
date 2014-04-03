@@ -31,7 +31,7 @@ Let's begin with Nginx. Here is the configuration file in it's simplest form. Th
         }
     }
 
-It's pretty obvious whats going on here. We 301 anything that hits the server on port 80. For requests made on `<port_number>`, we have enabled HTTP basic authentication which, upon success, will proxy to the Elasticsearch server. This can act as a good base for further configuration. We could, for example, require different levels of authentication for different Elasticsearch endpoints/ indices by providing additional location declartions. For example: `location ~ ^/.*/_search$`. Consult the [Nginx documentation](http://nginx.org/en/docs) for more information.
+It's pretty obvious whats going on here. We return a 301 for anything that hits the server on port 80. For requests made on `<port_number>`, we have enabled HTTP basic authentication which, upon success, will proxy to the Elasticsearch server. This can act as a good base for further configuration. We could, for example, require different levels of authentication for different Elasticsearch endpoints/ indices by providing additional location declartions. For example: `location ~ ^/.*/_search$`. Consult the [Nginx documentation](http://nginx.org/en/docs) for more information.
 
 The `apache2-utils` Debian package was used to generate the HTTP credentials:
 
@@ -54,7 +54,7 @@ Check everything works so far:
     # Returns Elasticsearch output
     $ curl <username>:<password>@<server_ip>:<port_number>
 
-The last thing to do is restrict Elasticsearch to only running on localhost; at the moment we could still access the server by hitting the port Elasticsearch runs on:
+The last thing to do is restrict Elasticsearch to localhost; at the moment we could still access Elasticsearch by hitting port 9200:
 
     $ curl <ip_address>:9200
 
