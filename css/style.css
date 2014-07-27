@@ -109,6 +109,18 @@ p {
     margin: 1em 0;
 }
 
+#social {
+    text-align: right;
+}
+
+#social p {
+    margin: 5px 0 0 0;
+}
+
+#social p:first-child {
+    margin-top: 0;
+}
+
 .entry-list {
     margin-bottom: 1.6em;
 }
