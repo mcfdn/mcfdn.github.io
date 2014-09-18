@@ -1,0 +1,65 @@
+==================================================================
+https://keybase.io/jamesmcfdn
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of http://jamesmcfadden.co.uk
+  * I am jamesmcfdn (https://keybase.io/jamesmcfdn) on keybase.
+  * I have a public key with fingerprint 5FF5 AA62 EEE1 B318 F0DB  EB9C FE76 D65B 78A1 9EE3
+
+To claim this, I am signing this object:
+
+{
+    "body": {
+        "key": {
+            "fingerprint": "5ff5aa62eee1b318f0dbeb9cfe76d65b78a19ee3",
+            "host": "keybase.io",
+            "key_id": "fe76d65b78a19ee3",
+            "uid": "dd1be843f57032e0ed7ef6b601362300",
+            "username": "jamesmcfdn"
+        },
+        "service": {
+            "hostname": "jamesmcfadden.co.uk",
+            "protocol": "http:"
+        },
+        "type": "web_service_binding",
+        "version": 1
+    },
+    "ctime": 1411031689,
+    "expire_in": 157680000,
+    "prev": "b44f5a1d3bb91943c062789374f72360e27e014a1218da3328e8aed1fa331930",
+    "seqno": 3,
+    "tag": "signature"
+}
+
+with the aforementioned key, yielding the PGP signature:
+
+-----BEGIN PGP MESSAGE-----
+Version: Keybase OpenPGP v1.0.3
+Comment: https://keybase.io/crypto
+
+yMHsAnicbZFdSBRRFMd33dZsxTSDAqGy8UGFbZk7d3c+tgct7Rs0IQgrW2d27qyT
+OrPN7EdiioJlKkkiWS5JrNsHFQWFPVSCWtmGS6J9QCCCWgYRvmRZBEV3pF6i+3Lu
+Pff3/59zz32aZjHZzJVfWiORkldj5sTwj6DpQFZ/Wz0hqGId4a4nqtFykGTFhzS/
+JisBwk24JMnF8zSFEAICBKxEigISOK+EGFqkXQLD8oBDCBJ2okrVDQW2EXgdOWQV
+5/DBI4s4+x8+uHwhikBArBNKLoaEFCKRyCCJFmgSQJqCJGmAOtIUvhZh+hgOeq1X
+EhWiwU7gfEj2IqNro/g/DC+KSHF4VUewGpv4NTWgetUaDFQFAn63oQ/U+Q1BGAme
+P1YeQVZEPAAsCCFNl1WFcANMegOy4Q2cAJAQ0CxnJ9AJv6whj2wQLoZmSbyMMiiE
+LQWnE88NiFAQOMA5oZekKYblIOOUGArSJKIYRAInDyjAijyEFItYHolAwnvAQePV
+OjquqIQb4jZ5H7bUZZ/CB4IaIhoeDx9ZYTLbTMnWJOMLTbZVGX8/dnohxXQ7tbOn
+f8vp/NLOmidZX8/HRkPPilpm2t+n9j7k5p5H20/mHJydzubvW6/UVO43x9eZw8n7
+4MCNyvm7lHVoTCl909Dt6OhqvFo6/mG8L2gpuO67drZjIHewLWVW5j6WpL17yz36
+lDsxUdwzdWrbocFu2NklhaOt0zsXG117LIetubc4k3l7ek6hPDnUsWvvy+Kb6fPr
+L51TNo8stcTybJssTCJpIbExujojb7GvfGl3vP17XUlzYexCpGkte/HbwmT90o6t
+DzKP2nvPtPz6mZQZncmfg2aqLb5yzag1XPT5Xnb5nUiCKhiZeE0tbhgsLqtqjk9V
+aJdjrRUvdK266Td8ZRW2
+=09Rd
+-----END PGP MESSAGE-----
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/jamesmcfdn
+
+==================================================================
