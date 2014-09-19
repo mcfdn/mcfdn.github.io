@@ -242,6 +242,10 @@ table th {
     margin-top: 30px;
 }
 
+#post .social-bar {
+    margin-top: 15px;
+}
+
 #footer {
     border-top: 1px solid #ddd;
     margin-top: 1em;

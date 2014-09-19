@@ -5,7 +5,12 @@ layout: default
 <div id="post">
     <h2>{{ page.title }}</h2>
     <span class="entry-date">{{ page.date | date_to_string }}</span>
+
+    {% include social.html %}    
+
     {{ content }}
+
+    {% include social.html %}
 
     <div id="disqus_thread"></div>
     <script type="text/javascript">
@@ -23,3 +28,6 @@ layout: default
     <a href="http://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
     
 </div>
+
+<script type="text/javascript" src="http://w.sharethis.com/button/buttons.js"></script>
+<script type="text/javascript">stLight.options({publisher: "ur-f284d14-c432-7ff7-7bac-b3d9be14b1a", doNotHash: false, doNotCopy: false, hashAddressBar: false});</script>
