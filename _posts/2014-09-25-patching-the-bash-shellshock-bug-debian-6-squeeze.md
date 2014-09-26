@@ -18,9 +18,6 @@ These are the steps to get the most recent patch for Bash on Debian 6 (Squeeze):
 
 Add the following lines:
 
-    deb http://http.debian.net/debian/ squeeze-lts main contrib non-free
-    deb-src http://http.debian.net/debian/ squeeze-lts main contrib non-free
-
     deb http://http.debian.net/debian/ squeeze main contrib non-free
     deb-src http://http.debian.net/debian/ squeeze main contrib non-free
 
