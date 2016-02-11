@@ -19,6 +19,10 @@ em {
     font-style: italic;
 }
 
+strong {
+    font-weight: bold;
+}
+
 pre,
 code {
     font-family: Consolas, "Liberation Mono", Courier, monospace;
