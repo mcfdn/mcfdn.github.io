@@ -1,20 +1,20 @@
 ---
 layout: post
-title: Configuring an OAuth2 Resource Owner Password Credentials grant with Laravel 5 and oauth2-server-laravel
+title: Configuring an OAuth2 Resource Owner Password Credentials Grant with Laravel 5 and oauth2-server-laravel
 description: If you're looking to integrate OAuth2 principles into your Laravel 4/5 application, the oauth2-server-laravel package is a really nice way to do so.
 ---
 
 If you're looking to integrate OAuth2 principles into your Laravel 4/5 application, the [oauth2-server-laravel](https://github.com/lucadegasperi/oauth2-server-laravel) package is a really nice way to do so. It supports multiple grants out of the box, including:
 
-- Authorization code grant
-- Implicit grant
-- Resource owner credentials grant
-- Client credentials grant
-- Refresh token grant
+- Authorization Code Grant
+- Implicit Grant
+- Resource Owner Password Credentials Grant
+- Client Credentials Grant
+- Refresh Token Grant
 
 It also allows you to write your own custom grants, should none of the above suit your needs.
 
-I needed a quick solution to get OAuth2 up in an API I'm developing, so I turned to this package to see if it would work for me. Since the API is going to be used by a couple trusted clients (web, mobile), I chose the [Resource Owner Password Credentials grant](http://tools.ietf.org/html/rfc6749#section-4.3). This grant requires the client to authorise with the API by providing it's client ID and secret along with the user credentials.
+I needed a quick solution to get OAuth2 up in an API I'm developing, so I turned to this package to see if it would work for me. Since the API is going to be used by a couple trusted clients (web, mobile), I chose the [Resource Owner Password Credentials Grant](http://tools.ietf.org/html/rfc6749#section-4.3). This grant requires the client to authorise with the API by providing it's client ID and secret along with the user credentials.
 
 I decided to note down the steps I took here, as it's the type of configuration I'll likely forget until I come to the next project that requires it.
 
@@ -30,7 +30,7 @@ Here is my composer require section for reference:
 
 ### Configuration
 
-Assuming the oauth2-server-laravel package has been installed and migrations are up to date (installation docs can be found [here](https://github.com/lucadegasperi/oauth2-server-laravel/blob/master/docs/README.md)), the first step is to configure your application to use the Resource owner credentials grant:
+Assuming the oauth2-server-laravel package has been installed and migrations are up to date (installation docs can be found [here](https://github.com/lucadegasperi/oauth2-server-laravel/blob/master/docs/README.md)), the first step is to configure your application to use the Resource Owner Password Credentials Grant:
 
 __/config/oauth2.php:__
 
@@ -158,7 +158,7 @@ Great! Our access token is working. Again, if you're experiencing problems, chec
 
 ### Finishing Up
 
-By now, your application is successfully using OAuth2 with the Resource Owner Credentials grant. One improvement I would recommend is to change the `http_headers_only` configuration option from `false` to `true`. This can be found in `config/oauth2.php`, and will force the `access_token` to be passed in your request headers as opposed to in the query string. Of course this is more secure and won't lead to access tokens being caught up in server access logs etc.
+By now, your application is successfully using OAuth2 with the Resource Owner Credentials Grant. One improvement I would recommend is to change the `http_headers_only` configuration option from `false` to `true`. This can be found in `config/oauth2.php`, and will force the `access_token` to be passed in your request headers as opposed to in the query string. Of course this is more secure and won't lead to access tokens being caught up in server access logs etc.
 
 Even better, you could use Laravel's `env` feature:
 
@@ -179,7 +179,7 @@ I also made the decision to remove the
 
 ### Conclusion
 
-Theres nothing much to write here, and the post is getting quite long now. Hopefully I've written this in a way where it will be useful to me in the future, as well as anyone else who is looking to implement the Resource Owner Credentials grant in a Laravel application. I'll look into writing about the other grant types as and when I experiment with them.
+Theres nothing much to write here, and the post is getting quite long now. Hopefully I've written this in a way where it will be useful to me in the future, as well as anyone else who is looking to implement the Resource Owner Password Credentials Grant in a Laravel application. I'll look into writing about the other grant types as and when I experiment with them.
 
 Thanks for reading!
 
