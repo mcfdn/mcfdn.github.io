@@ -32,7 +32,7 @@ Here is my composer require section for reference:
 
 Assuming the oauth2-server-laravel package has been installed and migrations are up to date (installation docs can be found [here](https://github.com/lucadegasperi/oauth2-server-laravel/blob/master/docs/README.md)), the first step is to configure your application to use the Resource Owner Password Credentials Grant:
 
-__/config/oauth2.php:__
+<strong class="code-title">/config/oauth2.php</strong>
 
     'grant_types' => [
         'password' => [
@@ -46,7 +46,7 @@ This is pretty straight forward; we're just configuring a new grant with the nam
 
 The main thing to be concerned with here is the `callback`. This will be invoked once the client has successfully authenticated. We'll need to create a class for this:
 
-__/app/Oauth2/Verifier/PasswordGrantVerifier.php:__
+<strong class="code-title">/app/Oauth2/Verifier/PasswordGrantVerifier.php</strong>
 
     <?php
 
@@ -72,7 +72,7 @@ This class simply takes a username and password and attempts to find a user in t
 
 Next we need to create an endpoint so our client can request an access token:
 
-__/app/Http/routes.php:__
+<strong class="code-title">/app/Http/routes.php</strong>
 
     Route::post('oauth/request', function() {
         return Response::json(Authorizer::issueAccessToken());
@@ -82,7 +82,7 @@ Here we're simply creating a `POST` route that fires off oauth2-server-laravel's
 
 Lets set up some resource routes now and protect them with OAuth2:
 
-__/app/Http/routes.php:__
+<strong class="code-title">/app/Http/routes.php</strong>
 
     Route::group(['middleware' => ['oauth']], function () {
         Route::resource('user', 'UserController');
@@ -92,7 +92,7 @@ We've used Laravel's group functionality to apply the OAuth middleware to multip
 
 For the sake of completeness, heres the controller:
 
-__/app/Http/Controllers/UserController.php:__
+<strong class="code-title">/app/Http/Controllers/UserController.php</strong>
 
     <?php
 
@@ -162,13 +162,13 @@ By now, your application is successfully using OAuth2 with the Resource Owner Cr
 
 Even better, you could use Laravel's `env` feature:
 
-__config/oauth2.php__
+<strong class="code-title">config/oauth2.php</strong>
 
     'http_headers_only' => env('OAUTH2_HTTP_HEADERS_ONLY', true),
 
 You'll need to specify this in your .env file:
 
-__.env__
+<strong class="code-title">.env</strong>
 
     OAUTH2_HTTP_HEADERS_ONLY=false
 

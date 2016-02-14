@@ -14,14 +14,3 @@ description: London based web developer
         </div>
     {% endfor %}
 </div>
-
-<h2>Projects</h2>
-<div class="entry-list">
-    {% for project in site.data.projects %}
-        <h3 class="entry">
-            <span class="entry-title"><a href="{{ project.link }}">{{ project.name}} </a></span>
-            <span class="entry-info">{{ project.status }}</span>
-            <div class="excerpt"><p>{{ project.description }}</p></div>
-        </h3>
-    {% endfor %}
-</div>

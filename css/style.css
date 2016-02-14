@@ -1,10 +1,11 @@
 body {
     margin: 0;
-    font-family: 'Source Sans Pro', sans-serif;
+    font-family: 'Lora', sans-serif;
     color: #222;
     background: #fff;
     padding: 0;
     text-align: justify;
+    font-size: 0.9em;
 }
 
 a {
@@ -64,6 +65,28 @@ ul li {
     list-style-type: disc;
 }
 
+.header {
+    margin-top: 1em;
+}
+
+.site-title {
+    display: inline-block;
+    font-size: 1.7em;
+    text-decoration: none;
+    margin: 0 0 0.3em 0;
+    color: #222;
+}
+
+.nav {
+    margin: 0 0 1.3em 0;
+    padding: 0 !important;
+    display: block;
+}
+
+.nav li {
+    display: inline;
+    margin-right: 0.8em;
+}
 
 #wrap {
     max-width: 740px;
@@ -80,16 +103,17 @@ ul li {
 }
 
 h1 {
-    font-size: 1.4em;
+    font-size: 1.6em;
     margin-top: 0.6em;
 }
 
 h2 {
     font-size: 1.3em;
+    line-height: 1.4em;
 }
 
 h3 {
-    font-size: 1.1em;
+    font-size: 1.3em;
     border-bottom: 1px solid #ddd;
     padding-bottom: 4px;
     margin-top: 1.3em;
@@ -132,6 +156,7 @@ p {
 .entry-list .entry {
     list-style-type: none;
     margin-top: 1.3em;
+    margin-bottom: 1.5em;
 }
 
 .entry-list .entry:first-child {
@@ -152,7 +177,7 @@ p {
     margin-top: 0;
     font-weight: normal;
     font-size: 0.9em;
-    line-height: 1.2em;
+    line-height: 1.4em;
     color: #666; /** The number of the beast **/
 }
 
@@ -242,6 +267,15 @@ table th {
     background: transparent;
 }
 
+#post .code-title {
+    font-weight: bold;
+    font-size: 0.9em;
+    position: relative;
+    top: 10px;
+    text-align: right;
+    display: block;
+}
+
 #post #disqus_thread {
     margin-top: 30px;
 }
@@ -276,6 +310,18 @@ table th {
     float: right;
 }
 
+.fl {
+    float: left;
+}
+
 .fr {
     float: right;
+}
+
+.clear {
+   content: " "; /* Older browser do not support empty content */
+   visibility: hidden;
+   display: block;
+   height: 0;
+   clear: both;
 }

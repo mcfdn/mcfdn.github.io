@@ -1,0 +1,16 @@
+---
+layout: default
+title: Projects | James McFadden
+description: London based web developer
+---
+
+<h2>Projects</h2>
+<div class="entry-list">
+    {% for project in site.data.projects %}
+        <div class="entry">
+            <h2 class="entry-title"><a href="{{ project.link }}">{{ project.name}} </a></h2>
+            <span class="entry-info">{{ project.status }}</span>
+            <div class="excerpt"><p>{{ project.description }}</p></div>
+        </div>
+    {% endfor %}
+</div>
