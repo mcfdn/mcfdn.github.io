@@ -78,7 +78,7 @@ Next we need to create an endpoint so our client can request an access token:
         return Response::json(Authorizer::issueAccessToken());
     });
 
-Here we're simply creating a `POST` route that fires off oauth2-server-laravel's `Authorizer`. This is where the magic happens - the client will attempt to use the parameters given to authorise the client and authenticate a user. The response will be output as JSON.
+Here we're simply creating a `POST` route that fires off oauth2-server-laravel's `Authorizer`. This is where the magic happens - the library will attempt to use the parameters given to authorise the client and authenticate a user. The response will be output as JSON.
 
 Lets set up some resource routes now and protect them with OAuth2:
 
