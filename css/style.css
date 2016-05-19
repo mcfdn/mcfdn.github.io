@@ -95,16 +95,8 @@ ul li {
     width: 1170px;
     max-width: 90%;
     padding: 0 15px;
-    margin: 0 auto;
+    margin: 0 auto 15px auto;
     position: relative;
-}
-
-#fork-me {
-    position: absolute;
-    top: 0px;
-    right: 0px;
-    border: 0px;
-    opacity: 1;
 }
 
 h1 {
@@ -307,12 +299,6 @@ table th {
 
 #footer ul li {
     list-style-type: none;
-}
-
-#footer #power {
-    font-size: smaller;
-    margin-top: 0.7em;
-    float: right;
 }
 
 .fl {
