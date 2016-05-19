@@ -1,10 +1,13 @@
+* {
+    box-sizing: border-box;
+}
+
 body {
     margin: 0;
     font-family: 'Lora', sans-serif;
     color: #222;
     background: #fff;
     padding: 0;
-    text-align: justify;
     font-size: 0.9em;
 }
 
@@ -89,8 +92,10 @@ ul li {
 }
 
 #wrap {
-    max-width: 740px;
-    margin: 0 auto 2em;
+    width: 1170px;
+    max-width: 90%;
+    padding: 0 15px;
+    margin: 0 auto;
     position: relative;
 }
 
