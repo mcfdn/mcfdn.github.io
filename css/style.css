@@ -271,6 +271,7 @@ table th {
     top: 10px;
     text-align: right;
     display: block;
+    word-wrap: break-word;
 }
 
 #post #disqus_thread {
