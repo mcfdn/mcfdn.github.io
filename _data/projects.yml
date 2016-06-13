@@ -6,8 +6,8 @@
 
 - name: Ad Server
   status: Ongoing development
-  description: Personal ad platform serving 110+ domains. Features include IP address white/ blacklists, 
-    geo filtering, and custom impression rate limiting and reporting. Note that some data in the accompanying image is simplified/ omitted for privacy.
+  description: Personal ad platform serving 110+ domains. Features include IP address white/ blacklisting, 
+    geo filtering, custom impression rate limiting and reporting. Note that some data in the accompanying image is simplified/ omitted for privacy.
   img_src: /images/projects/thumbs/ad-platform.png
   img_href: /images/projects/ad-platform.png
 
