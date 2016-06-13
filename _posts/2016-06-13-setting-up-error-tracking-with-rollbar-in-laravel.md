@@ -6,13 +6,13 @@ description: Error tracking in applications is often overlooked. Sometimes it's 
 
 Error tracking in applications is often overlooked. Sometimes it's difficult to know exactly how to collate and organise your errors until it's too late. There are many solutions out there that allow you to offload this burden, one of which is [Rollbar](https://rollbar.com).
 
-Rollbar is a free error tracking solution that provides libraries for many languages. Here's how I integrated their PHP solution into a Laravel 5.2 project of mine.
+Rollbar is a free error tracking solution that provides libraries for many languages. Here's how I integrated their PHP library into a Laravel 5.2 project of mine.
 
 ### Software Versions
 
 These are the software versions I used in this post:
 
-- Laravel 5.2.*
+- laravel/framework 5.2.*
 - rollbar/rollbar-php ~0.18.0
 
 If you're using something different, the steps outlined here may not work for you.
