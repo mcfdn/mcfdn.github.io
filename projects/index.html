@@ -5,12 +5,24 @@ description: London based web developer
 ---
 
 <h2>Projects</h2>
+<p>Here are a few of my personal projects. Those without links are unavailable to view due to them being in development or closed to the public. In some cases a demo may be arranged.</p>
 <div class="entry-list">
     {% for project in site.data.projects %}
-        <div class="entry">
-            <h2 class="entry-title"><a href="{{ project.link }}">{{ project.name}} </a></h2>
-            <span class="entry-info">{{ project.status }}</span>
-            <div class="excerpt"><p>{{ project.description }}</p></div>
+        <div class="entry clear">
+            <h2 class="entry-title">
+            {% if project.link %}
+                <a href="{{ project.link }}">{{ project.name}} </a>
+            {% else %}
+                {{ project.name }}
+            {% endif %}
+            </h2>
+            <div class="excerpt">
+                <a href="{{ project.img_href }}">
+                    <img class="excerpt-img" src="{{ project.img_src }}">
+                </a>
+                <p>{{ project.description }}</p>
+            </div>
+            
         </div>
     {% endfor %}
 </div>

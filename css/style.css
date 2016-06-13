@@ -84,6 +84,7 @@ ul li {
     margin: 0 0 1.3em 0;
     padding: 0 !important;
     display: block;
+    font-size: 0.9em;
 }
 
 .nav li {
@@ -132,6 +133,7 @@ h1 a {
 p {
     display: block;
     margin: 1em 0;
+    line-height: 20px;
 }
 
 #social {
@@ -176,6 +178,17 @@ p {
     font-size: 0.9em;
     line-height: 1.4em;
     color: #666; /** The number of the beast **/
+}
+
+.entry-list .entry .excerpt .excerpt-img {
+    float: left;
+    margin-right: 10px;
+    margin-bottom: 5px;
+    border: 1px solid #f1bba8;
+}
+
+.entry-list .entry .excerpt .excerpt-img:hover {
+    border-color: #dd5424;
 }
 
 .entry-date,
@@ -311,9 +324,6 @@ table th {
 }
 
 .clear {
-   content: " "; /* Older browser do not support empty content */
-   visibility: hidden;
-   display: block;
-   height: 0;
-   clear: both;
+    overflow: auto;
+    zoom: 1;
 }

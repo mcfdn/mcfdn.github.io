@@ -1,12 +1,36 @@
+- name: RuneScan
+  status: Ongoing development
+  description: Player progress tracking and productivity tools for a popular MMORPG game. In development.
+  img_src: /images/projects/thumbs/runescan.png
+  img_href: /images/projects/runescan.png
+
+- name: Ad Server
+  status: Ongoing development
+  description: Personal ad platform serving 110+ domains. Features include IP address white/ blacklists, 
+    geo filtering, and custom impression rate limiting and reporting. Note that some data in the accompanying image is simplified/ omitted for privacy.
+  img_src: /images/projects/thumbs/ad-platform.png
+  img_href: /images/projects/ad-platform.png
+
+- name: Better Games
+  link: http://www.bettergames.co.uk
+  status: Ongoing development
+  description: Price comparison website for video games. Features include price history and price drop notifications.
+  img_src: /images/projects/thumbs/better-games.png
+  img_href: /images/projects/better-games.png
+
 - name: Stagenova
   link: http://stagenova.com
   status: In development
   description: Stagenova is a platform for finding musical talent based on user specific requirements.
+  img_src: /images/projects/thumbs/stagenova.png
+  img_href: /images/projects/stagenova.png
 
 - name: GitHub CV
   link: https://github.com/jamesmcfadden/ghcv
   status: Ongoing development
   description: Create an instant, editable GitHub CV with just a fork.
+  img_src: /images/projects/thumbs/ghcv.png
+  img_href: /images/projects/ghcv.png
 
 - name: Hoarder
   link: https://github.com/jamesmcfadden/hoarder
