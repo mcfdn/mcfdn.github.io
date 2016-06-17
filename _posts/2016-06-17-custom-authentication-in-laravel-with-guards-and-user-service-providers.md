@@ -4,7 +4,7 @@ title: Custom Authentication in Laravel with Guards and User Service Providers
 description: Laravel provides a quick and easy way to enable user authentication out of the box through it's AuthManager and guards.
 ---
 
-Laravel provides a quick and easy way to enable user authentication out of the box through it's AuthManager, EloquentUserProvider and guards. While this is great, sometimes extra flexibility is needed. An example might be when building a separate login for users with administrative rights, where those users are stored in the same table as regular system users. In this situation you might want to authenticate based on `username`, `password` and another attribute such as `is_admin`.
+Laravel provides a quick and easy way to enable user authentication out of the box through it's AuthManager, EloquentUserProvider and guards. While this is great, sometimes extra flexibility is needed. An example might be when building a separate login for users with administrative rights, where those users are stored in the same table as regular system users. In this situation you might want to authenticate based on `email`, `password` and another attribute such as `is_admin`.
 
 The [documentation](https://laravel.com/docs/5.2/authentication#authenticating-users) highlights that it's possible to manually authenticate users, but that doesn't work for those of us who want to take advantage of the really helpful `AuthenticatesAndRegistersUsers` trait that does a lot of the controller work for you.
 
@@ -46,22 +46,52 @@ So, lets assume we're building an admin interface for an existing system, where 
 
 It's basically the same as the default `CreateUsersTable` migration, but we've added `is_admin` and a couple of indicies.
 
-We can go ahead and create a user. Assuming you have the model set up:
+Now we'll set up our `User` model:
+
+<strong class="code-title">/app/User.php</strong>
+
+    <?php
+
+    namespace App;
+
+    use Illuminate\Foundation\Auth\User as Authenticatable;
+
+    class User extends Authenticatable
+    {
+        protected $fillable = [
+            'name', 'email', 'password',
+        ];
+
+        protected $hidden = [
+            'password', 'remember_token',
+        ];
+
+        protected $casts = [
+            'is_admin' => 'boolean',
+        ];
+
+        public function setPasswordAttribute($value)
+        {
+            return $this->attributes['password'] = \Hash::make($value);
+        }
+    }
+
+We've added a couple of helpful bits of functionality to the model, most notably the [cast](https://laravel.com/docs/5.2/eloquent-mutators#attribute-casting) for `is_admin` and the password [mutator](https://laravel.com/docs/5.2/eloquent-mutators#accessors-and-mutators).
+
+Now we can create a couple of test users set up so we can play around with our authentication:
 
     $user = new \App\User();
     $user->email = 'user@app.com';
-    $user->password = \Hash::make('secret');
+    $user->password = 'secret';
     $user->is_admin = 0;
 
     $admin = new \App\User();
     $admin->email = 'admin@app.com';
-    $admin->password = \Hash::make('secret');
+    $admin->password = 'secret';
     $admin->is_admin = 1;
 
     $user->save();
     $admin->save();
-
-Now we have a couple of test users set up so we can play around with our authentication.
 
 ### Auth Configuration
 
@@ -129,7 +159,7 @@ Now that we've specified a custom provider, we need to build it. The guard provi
         }
     }
 
-The only method we need to override is `retrieveByCredentials`. Above, I've chosen only to override some of it, so all we need to do is check if any user that is found with the specified username and password in the parent class is also an admin.
+The only method we need to override is `retrieveByCredentials`. Above, I've chosen only to override some of it, so all we need to do is check if any user that is found with the specified email and password in the parent class is also an admin.
 
 In our auth configuration earlier, we referenced our new guard provider as `eloquent.admin`. We'll need to bind that reference to our implementation, which we can accomplish in the `AuthServiceProvider`:
 
@@ -314,7 +344,9 @@ That's all there is to it. It feels like quite a bit to set up, but what you're 
 
 ### Resources
 
-- [Laravel Authentication Documentation](https://laravel.com/docs/5.2/authentication)
+- [Laravel Authentication](https://laravel.com/docs/5.2/authentication)
+- [Laravel Mutators](https://laravel.com/docs/5.2/eloquent-mutators#accessors-and-mutators)
+- [Laravel Casting](https://laravel.com/docs/5.2/eloquent-mutators#attribute-casting)
 - [Laravel Collective](https://laravelcollective.com/docs/5.2/html)
 
 
