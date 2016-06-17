@@ -173,7 +173,6 @@ In our auth configuration earlier, we referenced our new guard provider as `eloq
     use Illuminate\Contracts\Auth\Access\Gate as GateContract;
     use Illuminate\Foundation\Support\Providers\AuthServiceProvider as ServiceProvider;
     use App\Auth\EloquentAdminUserProvider;
-    use App\User;
 
     class AuthServiceProvider extends ServiceProvider
     {
