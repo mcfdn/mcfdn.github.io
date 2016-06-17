@@ -8,6 +8,10 @@ Laravel provides a quick and easy way to enable user authentication out of the b
 
 The [documentation](https://laravel.com/docs/5.2/authentication#authenticating-users) highlights that it's possible to manually authenticate users, but that doesn't work for those of us who want to take advantage of the really helpful `AuthenticatesAndRegistersUsers` trait that does a lot of the controller work for you.
 
+### Software Versions
+
+- laravel/framework 5.2.*
+
 ### The Solution
 
 So, lets assume we're building an admin interface for an existing system, where the administrators are also regular users. Our migration looks like this:
