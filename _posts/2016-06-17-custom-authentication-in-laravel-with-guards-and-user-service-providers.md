@@ -4,7 +4,7 @@ title: Custom Authentication in Laravel with Guards and User Service Providers
 description: Laravel provides a quick and easy way to enable user authentication out of the box through it's AuthManager and guards.
 ---
 
-Laravel provides a quick and easy way to enable user authentication out of the box through it's AuthManager, EloquentUserProvider and guards. While this is great, sometimes extra flexibility is needed. An example might be when building a separate login for users with administrative rights, where those users are stored in the same table as regular system users. In this situation you might want to authenticate based on `username`, `password` and another attribute such as `is_admin`, but it doesn't make sense to reinvent the wheel. 
+Laravel provides a quick and easy way to enable user authentication out of the box through it's AuthManager, EloquentUserProvider and guards. While this is great, sometimes extra flexibility is needed. An example might be when building a separate login for users with administrative rights, where those users are stored in the same table as regular system users. In this situation you might want to authenticate based on `username`, `password` and another attribute such as `is_admin`.
 
 The [documentation](https://laravel.com/docs/5.2/authentication#authenticating-users) highlights that it's possible to manually authenticate users, but that doesn't work for those of us who want to take advantage of the really helpful `AuthenticatesAndRegistersUsers` trait that does a lot of the controller work for you.
 
