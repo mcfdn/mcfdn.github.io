@@ -319,6 +319,11 @@ table th {
     list-style-type: none;
 }
 
+#footer #contact li:last-child {
+    margin-top: 10px;
+    font-size: smaller;
+}
+
 .fl {
     float: left;
 }
