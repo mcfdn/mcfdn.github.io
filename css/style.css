@@ -1,7 +1,3 @@
-* {
-    box-sizing: border-box;
-}
-
 body {
     margin: 0;
     font-family: 'Lora', sans-serif;
@@ -93,12 +89,18 @@ ul li {
     margin-right: 0.8em;
 }
 
-#wrap {
-    width: 1170px;
-    max-width: 90%;
-    padding: 0 15px;
-    margin: 0 auto 15px auto;
-    position: relative;
+.widget {
+    margin-top: 10px;
+}
+
+.strava.widget {
+    height: 454px;
+    width: 100%;
+}
+
+.twitter.widget {
+    height: 100px;
+    width: 100%;
 }
 
 h1 {
@@ -116,13 +118,14 @@ h3 {
     border-bottom: 1px solid #ddd;
     padding-bottom: 4px;
     margin-top: 1.3em;
+    margin-bottom: .5em;
 }
 
 h1, h2, h3 {
     font-weight: bold;
 }
 
-h1, h2 {
+h1 {
     margin-bottom: 1.6em;
 }
 
