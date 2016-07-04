@@ -1,4 +1,5 @@
 - name: RuneScan
+  link: http://www.runescan.com
   status: Ongoing development
   description: Player progress tracking and productivity tools for a popular MMORPG game. In development.
   img_src: /images/projects/thumbs/runescan.png
