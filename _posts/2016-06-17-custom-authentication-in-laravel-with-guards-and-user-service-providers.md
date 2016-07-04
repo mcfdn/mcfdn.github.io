@@ -153,7 +153,7 @@ Now that we've specified a custom provider, we need to build it. The guard provi
             // I think it's best to avoid as much duplication as possible
             $user = parent::retrieveByCredentials($credentials);
 
-            return $user->is_admin === false
+            return $user && $user->is_admin === false
                     ? null
                     : $user;
         }
