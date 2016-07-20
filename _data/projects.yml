@@ -1,7 +1,7 @@
 - name: RuneScan
   link: http://www.runescan.com
   status: Ongoing development
-  description: Player progress tracking and productivity tools for a popular MMORPG game. In development.
+  description: Player progress tracking and productivity tools for a popular MMORPG game.
   img_src: /images/projects/thumbs/runescan.png
   img_href: /images/projects/runescan.png
 
@@ -11,6 +11,11 @@
     geo filtering, custom impression rate limiting and reporting. Note that some data in the accompanying image is simplified/ omitted for privacy.
   img_src: /images/projects/thumbs/ad-platform.png
   img_href: /images/projects/ad-platform.png
+
+- name: Gen
+  link: http://gen.jamesmcfadden.co.uk
+  status: Ongoing development
+  description: A lightweight, extensible static file generator written in PHP.
 
 - name: Better Games
   link: http://www.bettergames.co.uk
