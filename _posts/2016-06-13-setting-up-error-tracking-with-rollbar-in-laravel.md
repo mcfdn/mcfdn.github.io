@@ -13,7 +13,7 @@ Rollbar is a free error tracking solution that provides libraries for many langu
 These are the software versions I used in this post:
 
 - laravel/framework 5.2.*
-- rollbar/rollbar-php ~0.18.0
+- rollbar/rollbar ~0.18.0
 
 If you're using something different, the steps outlined here may not work for you.
 
