@@ -1,3 +1,8 @@
+- name: Overwatch API
+  link: http://overwatch-api.net
+  status: Ongoing development
+  description: An open Source API project for the Overwatch video game built with Laravel 5.2.
+
 - name: RuneScan
   link: http://www.runescan.com
   status: Ongoing development
