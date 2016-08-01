@@ -1,32 +1,55 @@
 body {
-    margin: 0;
-    font-family: 'Lora', sans-serif;
-    color: #222;
-    background: #fff;
-    padding: 0;
-    font-size: 0.9em;
+  margin: 0;
+  background: #fcfcfc !important;
+  color: #222;
+  padding: 0;
+  font-family: 'Open Sans';
+  font-size: 0.9em;
+  font-weight: 300;
+  border-top: 4px solid #dd5424;
+}
+
+.header,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: 'Roboto Slab';
+  font-weight: 400;
+}
+
+.header,
+.entry-title {
+  font-weight: 300 !important;
+}
+
+#tagline {
+  font-family: monospace;
+  font-size: 1.1em;
 }
 
 a {
-    color: #dd5424;
+  color: #dd5424;
 }
 
 small {
-    font-size: small;
+  font-size: small;
 }
 
 em {
-    font-style: italic;
+  font-style: italic;
 }
 
 strong {
-    font-weight: bold;
+  font-weight: bold;
 }
 
 pre,
 code {
-    font-family: Consolas, "Liberation Mono", Courier, monospace;
-    font-size: small;
+  font-family: Consolas, "Liberation Mono", Courier, monospace;
+  font-size: small;
 }
 
 /**
@@ -34,305 +57,300 @@ code {
  * http://css-tricks.com/snippets/css/simple-and-nice-blockquote-styling/
  */
 blockquote {
-    background: #f9f9f9;
-    border-left: 10px solid #ccc;
-    margin: 1.5em 10px;
-    padding: 0.5em 10px;
-    quotes: "\201C""\201D""\2018""\2019";
+  background: #f9f9f9;
+  border-left: 10px solid #ccc;
+  margin: 1.5em 10px;
+  padding: 0.5em 10px;
+  quotes: "\201C""\201D""\2018""\2019";
 }
 
 blockquote:before {
-    color: #ccc;
-    content: open-quote;
-    font-size: 4em;
-    line-height: 0.1em;
-    margin-right: 0.25em;
-    vertical-align: -0.4em;
+  color: #ccc;
+  content: open-quote;
+  font-size: 4em;
+  line-height: 0.1em;
+  margin-right: 0.25em;
+  vertical-align: -0.4em;
 }
 
 blockquote p {
-    display: inline;
-    font-style: italic;
-    font-size: 0.95em;
+  display: inline;
+  font-style: italic;
+  font-size: 0.95em;
 }
 
 ul {
-    padding-left: 20px;
-    margin-top: 10px;
+  padding-left: 20px;
+  margin-top: 10px;
 }
 
 ul li {
-    list-style-type: disc;
+  list-style-type: disc;
 }
 
 .header {
-    margin-top: 1em;
+  margin-top: 1em;
 }
 
 .site-title {
-    display: inline-block;
-    font-size: 1.7em;
-    text-decoration: none;
-    margin: 0 0 0.3em 0;
-    color: #222;
+  display: inline-block;
+  font-size: 1.7em;
+  text-decoration: none;
+  margin: 0 0 0.3em 0;
+  color: #222;
 }
 
 .nav {
-    margin: 0 0 1.3em 0;
-    padding: 0 !important;
-    display: block;
-    font-size: 0.9em;
+  margin: 0 0 1.3em 0;
+  padding: 0 !important;
+  display: block;
+  font-size: 0.9em;
 }
 
 .nav li {
-    display: inline;
-    margin-right: 0.8em;
+  display: inline;
+  margin-right: 0.8em;
 }
 
 .widget {
-    margin-top: 10px;
+  margin-top: 10px;
 }
 
 .strava.widget {
-    height: 454px;
-    width: 100%;
+  height: 454px;
+  width: 100%;
 }
 
 .twitter.widget {
-    height: 100px;
-    width: 100%;
+  height: 100px;
+  width: 100%;
 }
 
 h1 {
-    font-size: 1.6em;
-    margin-top: 0.6em;
+  font-size: 1.6em;
+  margin-top: 0.6em;
 }
 
 h2 {
-    font-size: 1.3em;
-    line-height: 1.4em;
+  font-size: 1.3em;
+  line-height: 1.4em;
 }
 
 h3 {
-    font-size: 1.3em;
-    border-bottom: 1px solid #ddd;
-    padding-bottom: 4px;
-    margin-top: 1.3em;
-    margin-bottom: .5em;
-}
-
-h1, h2, h3 {
-    font-weight: bold;
+  font-size: 1.3em;
+  border-bottom: 1px solid #ddd;
+  padding-bottom: 4px;
+  margin-top: 1.3em;
+  margin-bottom: .5em;
 }
 
 h1 {
-    margin-bottom: 1.6em;
+  margin-bottom: 1.6em;
 }
 
 h1 a {
-    text-decoration: none;
-    color: #222;
+  text-decoration: none;
+  color: #222;
 }
 
 p {
-    display: block;
-    margin: 1em 0;
-    line-height: 20px;
+  display: block;
+  margin: 1em 0;
 }
 
 #social {
-    text-align: right;
+  text-align: right;
 }
 
 #social p {
-    margin: 5px 0 0 0;
+  margin: 5px 0 0 0;
 }
 
 #social p:first-child {
-    margin-top: 0;
+  margin-top: 0;
 }
 
 .entry-list {
-    margin-bottom: 1.6em;
+  margin-bottom: 1.6em;
 }
 
 .entry-list .entry {
-    list-style-type: none;
-    margin-top: 1.3em;
-    margin-bottom: 1.5em;
+  list-style-type: none;
+  margin-top: 1.3em;
+  margin-bottom: 1.5em;
 }
 
 .entry-list .entry:first-child {
-    margin-top: 0;
+  margin-top: 0;
 }
 
 .entry-list .entry .entry-title {
-    margin: 0.5em 0 0 0;
-    padding: 0;
-    font-size: 1.05em;
-    line-height: 1.3em;
-    border: none;
-    font-weight: normal;
-    display: block;
+  margin: 0.5em 0 0 0;
+  padding: 0;
+  font-size: 1.05em;
+  line-height: 1.3em;
+  border: none;
+  font-weight: normal;
+  display: block;
 }
 
 .entry-list .entry .excerpt p {
-    margin-top: 0;
-    font-weight: normal;
-    font-size: 0.9em;
-    line-height: 1.4em;
-    color: #666; /** The number of the beast **/
+  margin-top: 0;
+  font-weight: normal;
+  font-size: 0.9em;
+  line-height: 1.4em;
+  color: #666; /** The number of the beast **/
 }
 
 .entry-list .entry .excerpt .excerpt-img {
-    float: left;
-    margin-right: 10px;
-    margin-bottom: 5px;
-    border: 1px solid #f1bba8;
+  float: left;
+  margin-right: 10px;
+  margin-bottom: 5px;
+  border: 1px solid #f1bba8;
 }
 
 .entry-list .entry .excerpt .excerpt-img:hover {
-    border-color: #dd5424;
+  border-color: #dd5424;
 }
 
 .entry-date,
 .entry-info {
-    margin: 0 0 1em 0;
-    font-size: 0.8em;
-    color: #aaa;
-    line-height: 1.6em;
-    word-spacing: 2px;
-    font-weight: normal;
+  margin: 0 0 1em 0;
+  font-size: 0.8em;
+  color: #aaa;
+  line-height: 1.6em;
+  word-spacing: 2px;
+  font-weight: normal;
 }
 
 .entry-info {
-    font-style: italic;
+  font-style: italic;
 }
 
 .entry-list .entry:last-child {
-    border-bottom: 0;
+  border-bottom: 0;
 }
 
 table {
-    width: 100%;
-    overflow: auto;
-    display: block;
+  width: 100%;
+  overflow: auto;
+  display: block;
+  border-collapse: collapse;
 }
 
-table tr {
-    border-top: 1px solid #ccc;
-    background-color: #fff;
-    margin: 15px 0;
-    border-collapse: collapse;
-    border-spacing: 0;
+/**
+ * The following th and td styles are from
+ * getskeleton.com
+ */
+th,
+td {
+  padding: 12px 15px;
+  text-align: left;
+  border-bottom: 1px solid #E1E1E1;
 }
 
-table tr:nth-child(2n) {
-    background-color: #f8f8f8;
+th:first-child,
+td:first-child {
+  padding-left: 0;
 }
 
-table th,
-table td {
-    border: 1px solid #ddd;
-    padding: 6px 13px;
-}
-
-table th {
-    font-weight: bold;
+th:last-child,
+td:last-child {
+  padding-right: 0;
 }
 
 #post {
-    margin-bottom: 2em;
-    line-height: 1.4em;
+  margin-bottom: 2em;
+  line-height: 1.6;
 }
 
 #post h2 {
-    margin-bottom: 0;
+  margin-bottom: 0;
 }
 
 #post pre {
-    display: block;
-    padding: 8.5px;
-    margin: 0 0 9px;
-    font-size: 12px;
-    line-height: 18px;
-    background-color: #f2f2f2;
-    border: 1px solid #ccc;
-    -webkit-border-radius: 3px;
-    -moz-border-radius: 3px;
-    border-radius: 3px;
-    white-space: pre;
-    white-space: pre-wrap;
-    word-break: break-all;
-    word-wrap: break-word;
+  display: block;
+  padding: 8.5px;
+  margin: 0 0 9px;
+  font-size: 12px;
+  line-height: 18px;
+  background-color: #f2f2f2;
+  border: 1px solid #ccc;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  border-radius: 3px;
+  white-space: pre;
+  white-space: pre-wrap;
+  word-break: break-all;
+  word-wrap: break-word;
 }
 
 #post code {
-    padding: 2px;
-    background-color: #f7f7f9;
-    border: 1px solid #e1e1e8;
+  padding: 2px;
+  background-color: #f7f7f9;
+  border: 1px solid #e1e1e8;
 }
 
 #post pre > code {
-    margin: 0;
-    padding: 0;
-    white-space: pre-wrap;
-    border: none;
-    background: transparent;
+  margin: 0;
+  padding: 0;
+  white-space: pre-wrap;
+  border: none;
+  background: transparent;
 }
 
 #post .code-title {
-    font-weight: bold;
-    font-size: 0.9em;
-    position: relative;
-    top: 10px;
-    text-align: right;
-    display: block;
-    word-wrap: break-word;
+  font-weight: bold;
+  font-size: 0.9em;
+  position: relative;
+  top: 10px;
+  text-align: right;
+  display: block;
+  word-wrap: break-word;
 }
 
 #post #disqus_thread {
-    margin-top: 30px;
+  margin-top: 30px;
 }
 
 #post .social-bar {
-    margin-top: 15px;
+  margin-top: 15px;
 }
 
 #footer {
-    border-top: 1px solid #ddd;
-    margin-top: 1em;
-    font-size: 0.9em;
+  border-top: 1px solid #ddd;
+  margin-top: 1em;
+  font-size: 0.9em;
 }
 
 #footer a {
-    color: #222;
+  color: #222;
 }
 
 #footer ul {
-    margin-top: 0.8em;
-    padding: 0;
-    line-height: 1.5em;
+  margin-top: 0.8em;
+  padding: 0;
+  line-height: 1.5em;
 }
 
 #footer ul li {
-    list-style-type: none;
+  list-style-type: none;
 }
 
 #footer #contact li:last-child {
-    margin-top: 10px;
-    font-size: smaller;
+  margin-top: 10px;
+  font-size: smaller;
 }
 
 .fl {
-    float: left;
+  float: left;
 }
 
 .fr {
-    float: right;
+  float: right;
 }
 
 .clear {
-    overflow: auto;
-    zoom: 1;
+  overflow: auto;
+  zoom: 1;
 }
