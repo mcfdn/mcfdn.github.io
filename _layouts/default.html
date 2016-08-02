@@ -2,7 +2,13 @@
 <!DOCTYPE html>
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en-gb">
     <head>
-        <title>{{ page.title }}</title>
+        <title>
+            {% if page.title %}
+                {{ page.title }} - James McFadden
+            {% else %}
+                James McFadden
+            {% endif %}
+        </title>
 
         <!-- Meta tags -->
         <meta http-equiv="content-type" content="text/html; charset=utf-8" />
