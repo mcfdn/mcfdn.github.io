@@ -46,7 +46,7 @@ This is pretty straight forward; we're just configuring a new grant with the nam
 
 The main thing to be concerned with here is the `callback`. This will be invoked once the client has successfully authenticated. We'll need to create a class for this:
 
-<strong class="code-title">/app/Oauth2/Verifier/PasswordGrantVerifier.php</strong>
+<strong class="code-title">/app/OAuth2/Verifier/PasswordGrantVerifier.php</strong>
 
     <?php
 
