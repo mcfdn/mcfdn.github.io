@@ -1,3 +1,13 @@
+html {
+  background: #dd5424 repeating-linear-gradient(
+    45deg,
+    #e0743a,
+    #e0743a 10px,
+    #dd5424 10px,
+    #dd5424 20px
+  );
+}
+
 body {
   margin: 0;
   background: #fcfcfc !important;
