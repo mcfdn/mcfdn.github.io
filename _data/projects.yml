@@ -37,18 +37,18 @@
   img_href: /images/projects/stagenova.png
 
 - name: GitHub CV
-  link: https://github.com/mcfdn/ghcv
+  link: https://github.com/jamesmcfadden/ghcv
   status: Ongoing development
   description: Create an instant, editable GitHub CV with just a fork.
   img_src: /images/projects/thumbs/ghcv.png
   img_href: /images/projects/ghcv.png
 
 - name: Hoarder
-  link: https://github.com/mcfdn/hoarder
+  link: https://github.com/jamesmcfadden/hoarder
   status: Ongoing development
   description: Simplified caching for PHP 5.3+
 
 - name: PhpGw2Api
-  link: https://github.com/mcfdn/Php-Gw2-Api
+  link: https://github.com/jamesmcfadden/Php-Gw2-Api
   status: Ongoing development
   description: Php-Gw2-Api is a PHP wrapper for the Guild Wars 2 API.
