@@ -1,10 +1,10 @@
 - name: Overwatch API
-  link: http://overwatch-api.net
+  link: https://overwatch-api.net
   status: Ongoing development
   description: An open Source API project for the Overwatch video game built with Laravel 5.2.
 
 - name: RuneScan
-  link: http://www.runescan.com
+  link: https://www.runescan.com
   status: Ongoing development
   description: Player progress tracking and productivity tools for a popular MMORPG game.
   img_src: /images/projects/thumbs/runescan.png
@@ -18,19 +18,19 @@
   img_href: /images/projects/ad-platform.png
 
 - name: Gen
-  link: http://gen.jamesmcfadden.co.uk
+  link: https://gen.jamesmcfadden.co.uk
   status: Ongoing development
   description: A lightweight, extensible static file generator written in PHP.
 
 - name: Better Games
-  link: http://www.bettergames.co.uk
+  link: https://www.bettergames.co.uk
   status: Ongoing development
   description: Price comparison website for video games. Features include price history and price drop notifications.
   img_src: /images/projects/thumbs/better-games.png
   img_href: /images/projects/better-games.png
 
 - name: Stagenova
-  link: http://stagenova.com
+  link: https://stagenova.com
   status: In development
   description: Stagenova is a platform for finding musical talent based on user specific requirements.
   img_src: /images/projects/thumbs/stagenova.png
