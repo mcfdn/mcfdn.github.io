@@ -13,7 +13,7 @@
 - name: AlexaTrack
   link: https://alexa.jamesmcfadden.co.uk
   status: Ongoing development
-  description: Track the daily changes in alexa rank for your domains.
+  description: Track the daily Alexa ranking changes for your domains.
 
 - name: Ad Server
   status: Ongoing development
