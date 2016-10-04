@@ -1,7 +1,12 @@
-- name: Overwatch API
+- name: The Binding of Isaac RESTful API
+  link: https://github.com/jamesmcfadden/binding-of-isaac-api
+  status: Ongoing development
+  description: An open source RESTful API project for The Binding of Isaac video game series.
+
+- name: Overwatch RESTful API
   link: https://overwatch-api.net
   status: Ongoing development
-  description: An open Source API project for the Overwatch video game built with Laravel 5.2.
+  description: An open source API project for the Overwatch video game built with Laravel 5.2.
 
 - name: RuneScan
   link: https://www.runescan.com
