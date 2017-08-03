@@ -1,12 +1,12 @@
+- name: Overwatch RESTful API
+  link: https://overwatch-api.net
+  status: Ongoing development
+  description: An open source API project for the Overwatch video game built with Laravel 5.4.
+
 - name: The Binding of Isaac RESTful API
   link: https://github.com/jamesmcfadden/binding-of-isaac-api
   status: Ongoing development
   description: An open source RESTful API project for The Binding of Isaac video game series.
-
-- name: Overwatch RESTful API
-  link: https://overwatch-api.net
-  status: Ongoing development
-  description: An open source API project for the Overwatch video game built with Laravel 5.2.
 
 - name: RuneScan
   link: https://www.runescan.com
@@ -22,7 +22,7 @@
 
 - name: Ad Server
   status: Ongoing development
-  description: Personal ad platform serving 110+ domains. Features include IP address white/ blacklisting, 
+  description: Personal ad platform serving 110+ domains. Features include IP address white/ blacklisting,
     geo filtering, custom impression rate limiting and reporting.
   img_src: /images/projects/thumbs/ad-platform.png
   img_href: /images/projects/ad-platform.png
@@ -32,26 +32,12 @@
   status: Ongoing development
   description: A lightweight, extensible static file generator written in PHP.
 
-- name: Better Games
-  link: https://www.bettergames.co.uk
-  status: Ongoing development
-  description: Price comparison website for video games. Features include price history and price drop notifications.
-  img_src: /images/projects/thumbs/better-games.png
-  img_href: /images/projects/better-games.png
-
 - name: Stagenova
   link: https://stagenova.com
   status: In development
   description: Stagenova is a platform for finding musical talent based on user specific requirements.
   img_src: /images/projects/thumbs/stagenova.png
   img_href: /images/projects/stagenova.png
-
-- name: GitHub CV
-  link: https://github.com/jamesmcfadden/ghcv
-  status: Ongoing development
-  description: Create an instant, editable GitHub CV with just a fork.
-  img_src: /images/projects/thumbs/ghcv.png
-  img_href: /images/projects/ghcv.png
 
 - name: Hoarder
   link: https://github.com/jamesmcfadden/hoarder
