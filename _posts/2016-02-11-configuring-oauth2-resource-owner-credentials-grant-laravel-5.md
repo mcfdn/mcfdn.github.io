@@ -88,7 +88,7 @@ Lets set up some resource routes now and protect them with OAuth2:
         Route::resource('user', 'UserController');
     });
 
-We've used Laravel's group functionality to apply the OAuth middleware to multiple routes in one call. Any request to an endpoing in this group will require a valid access token.
+We've used Laravel's group functionality to apply the OAuth middleware to multiple routes in one call. Any request to an endpoint in this group will require a valid access token.
 
 For the sake of completeness, heres the controller:
 
