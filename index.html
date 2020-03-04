@@ -1,59 +1,14 @@
-<!-- (╯°□°）╯︵ ┻━┻ -->
-<!DOCTYPE html>
-<html xmlns="http://www.w3.org/1999/xhtml" lang="en-gb">
-<head>
-    <title>James McFadden - London Based Software Developer</title>
-    <meta http-equiv="content-type" content="text/html; charset=utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="shortcut icon" href="/favicon.gif">
-    <link href="https://fonts.googleapis.com/css?family=Source+Code+Pro" rel="stylesheet">
-    <style>
-        * {
-            -webkit-font-smoothing: antialiased;
-            -moz-osx-font-smoothing: grayscale;
-        }
-        body {
-            background: #fcfcfc;
-            color: #222;
-            font-family: 'Source Code Pro', monospace;
-            text-transform: lowercase;
-        }
-        a {
-            border-bottom: 1px solid #aaa;
-            color: #222;
-            padding-bottom: 2px;
-            text-decoration: none;
-        }
-        .container {
-            padding: 2rem 3rem;
-        }
-        .container #links li {
-            line-height: 2rem;
-        }
-    </style>
-</head>
+---
+layout: default
+description: I'm a London based web developer. I write about software development, frameworks and APIs
+---
 
-<body>
-    <div class="container">
-        <p>&gt; James McFadden</p>
-        <p>&gt; London based software developer</p>
-        <ul id="links">
-            <li><a href="https://visitmotion.com" target="_blank">Visitmotion</a></li>
-            <li><a href="https://github.com/jamesmcfadden" target="_blank">GitHub</a></li>
-            <li><a href="http://www.linkedin.com/in/mcfdn" target="_blank">LinkedIn</a></li>
-            <li><a href="/blog.html">Blog (archive)</a></li>
-        </ul>
-    </div>
-
-    <!-- Google Analytics -->
-    <script>
-      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-        (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-        m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-      })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
-
-      ga('create', 'UA-24280959-1', 'auto');
-      ga('send', 'pageview');
-    </script>
-</body>
-</html>
+<div class="entry-list">
+    {% for post in site.posts %}
+        <div class="entry">
+            <h2 class="entry-title"><a href="{{ post.url }}">{{ post.title }}</a></h2>
+            <span class="entry-date">{{ post.date | date_to_string }}</span>
+            <div class="excerpt"><p>{{ post.description }}</p></div>
+        </div>
+    {% endfor %}
+</div>
